@@ -117,7 +117,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  margin-top: 310px;
+  margin-top: 350px;
 }
 
 #towan-heights p {
@@ -126,6 +126,7 @@ button {
 }
 
 .slideshow-container {
+  width: 100%;
   /*max-width: 1000px;*/
   position: relative;
   margin: auto;
