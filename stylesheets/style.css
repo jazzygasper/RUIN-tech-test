@@ -1,5 +1,114 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0px 0px 0px 0px;
+}
 
+a {
+  text-decoration: none;
+}
 
+h1 {
+  color: #95c21f;
+  font-size: 50px;
+}
+
+h2 {
+  color: #95c21f;
+}
+
+p {
+  font-size: 12px;
+}
+
+div#content {
+  width: 100%;
+}
+
+section#home {
+  width: 100%;
+  height: 680px;
+  background: url(../assets/top-back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div#logo p {
+  font-size: 18px;
+  color: white;
+}
+
+div#logo {
+  width: 180px;
+  float:left;
+  padding: 0px 0px 0px 20px;
+}
+
+div#nav {
+  width: 500px;
+  float: right;
+  padding: 30px 0px 0px 0px;
+}
+
+div#nav a {
+  font-size: 13px;
+  color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+div#large-v{
+  width: 100%;
+  height: 100%;
+}
+
+img#large-v {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+section#about {
+  width: 600px;
+  text-align: center;
+   margin: 0 auto;
+}
+
+#about td {
+  color: #95c21f;
+
+}
+
+button {
+  background-color: #95c21f;
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+}
+
+section#home-automation {
+  background: url(../assets/vesta-back.jpg);
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+div#towan-heights {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin-top: 310px;
+}
+
+div#towan-heights p {
+  color: white;
+}
 
 .slideshow-container {
   max-width: 1000px;
@@ -12,7 +121,7 @@
   height: 13px;
   width: 13px;
   margin: 0 2px;
-  background-color: black;
+  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -37,4 +146,8 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+div#contact-info {
+  width: 200px;
 }
