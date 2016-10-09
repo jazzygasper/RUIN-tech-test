@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'helvetica-light';
+    src: url("fonts/Helvetica LT Light.ttf");
+}
+
 body {
-  font-family: helvetica, sans-serif;
+  font-family: "helvetica-light", sans-serif;
   margin: 0px 0px 0px 0px;
 }
 
@@ -74,7 +79,8 @@ img#large-v {
 section#about {
   width: 600px;
   text-align: center;
-   margin: 0 auto;
+  margin: 0 auto;
+  padding-bottom: 200px;
 }
 
 #about td {
@@ -90,14 +96,22 @@ button {
   border-radius: 4px;
 }
 
-section#home-automation {
+#home-automation {
   background: url(../assets/vesta-back.jpg);
+  background-position:center bottom;
+  background-repeat:no-repeat;
   text-align: center;
   margin: 0px auto;
-
 }
 
-div#towan-heights {
+#automation {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -90px;
+}
+
+#towan-heights {
   position: absolute;
   z-index: 2;
   left: 50%;
@@ -106,8 +120,9 @@ div#towan-heights {
   margin-top: 310px;
 }
 
-div#towan-heights p {
+#towan-heights p {
   color: white;
+  text-align: center;
 }
 
 .slideshow-container {
@@ -148,6 +163,27 @@ div#towan-heights p {
   to {opacity: 1}
 }
 
-div#contact-info {
+#bottom {
+  margin-left:auto;
+      margin-right:auto;}
+
+#contact-info {
   width: 200px;
+}
+
+#latest-post {
+  width: 300px;
+}
+
+#latest-post a {
+  color: #95c21f;
+
+}
+
+tr#bottom-headers h2{
+  height: 5px;
+}
+
+#bottom{
+border-spacing: 30px 0px;
 }
